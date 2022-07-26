@@ -1,0 +1,15 @@
+.mainContainer{
+    background-color: rgba(255,255,255,1);
+    color: black;
+    height: 100%;  
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    /* padding:0;
+    margin:0; */
+  }
+
+  /*///////////////////////////////////////////////////
+  ABOUT.JS
+  ///////////////////////////////////////////////////*/

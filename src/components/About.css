@@ -1,0 +1,118 @@
+
+.container{
+    display: flex;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro{
+    display: flex;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+  @media (min-width: 768px){
+    .container{
+      flex-direction: row;
+    }
+    .intro{
+      padding-right: 4rem; 
+      margin-bottom: 0; 
+      text-align: left; 
+      align-items: flex-start; 
+      width: 50%; 
+    }
+    .intro-pic{
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1024px){
+    .intro{
+      padding-right:6rem;
+    }
+    /* .intro-pic{
+      width: 100%;
+      max-width:32rem;
+    } */
+  }
+  
+  h1{
+    margin-bottom: 1rem; 
+    font-size: 1.5rem;
+    line-height: 2.5rem; 
+    font-weight: 500;
+  }
+  
+  @media (min-width: 640px){
+    h1{
+      font-size: 2.25rem;
+      line-height:2.5rem;
+    }
+  }
+  
+  .intro-text{
+    margin-bottom:2rem;
+  }
+  
+  .checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+  }
+  
+  .contactButton{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    background-color: #687baa; 
+    color: #ffffff; 
+    border-radius: 0.25rem; 
+    border-width: 0;
+    text-decoration: none;
+  }
+  
+  .contactButton:hover{
+    background-color: #c3525f;
+  }
+  
+  .projectsButton{
+    display: inline-flex; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    background-color: #1F2937; 
+    color: #9CA3AF; 
+    border-radius: 0.25rem; 
+    border-width: 0; 
+    text-decoration: none;
+  }
+  
+  .projectsButton:hover{
+    background-color: #374151; 
+    color: #ffffff;
+  }
+  
+  .my-pic{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    object-position: center;
+    
+  } 
+  .intro-pic{
+    text-align: right;
+    font-size: x-small;
+  }
+  .image-link{
+    
+    color:rgba(227, 224, 222, 0.874);
+  }
