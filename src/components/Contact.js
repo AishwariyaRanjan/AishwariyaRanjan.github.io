@@ -12,7 +12,7 @@ export default function Contact() {
         console.log("data:",data);
         return Object.keys(data)
             .map(
-                (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])                
+                key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])                
             )
             .join("&");            
     }
@@ -81,24 +81,28 @@ export default function Contact() {
                         susciput officia aspernatus veritatis. Asperiores, aliquid?
                     </p>
                     <input type="hidden" name="form-name" value="contact" />
+
                     <div className="contact-input-container">
                         <label htmlFor="name" className="label-style">
                             Name
                         </label>
-                        <input type="text" id="name" name="name" className="input-box"/>
+                        <input type="text" id="name" name="name" className="input-box" onChange={(e) => setName(e.target.value)}/>
                     </div>
+
                     <div className="contact-input-container">
                         <label htmlFor="email" className="label-style">
                             Email
                         </label>
-                        <input type="email" id="email" name="email" className="input-box"/>
+                        <input type="email" id="email" name="email" className="input-box" onChange={(e) => setEmail(e.target.value)}/>
                     </div>
+
                     <div className="contact-input-container">
                         <label htmlFor="message" className="label-style">
                             Message
                         </label>
-                        <textarea id="message" name="message" className="input-box"/>
+                        <textarea id="message" name="message" className="input-box" onChange={(e) => setMessage(e.target.value)}/>
                     </div>
+
                     <button type="submit" className="submit-button">
                         Submit
                     </button>
