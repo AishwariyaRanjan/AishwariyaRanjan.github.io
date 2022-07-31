@@ -41,6 +41,10 @@ export default function Projects() {
 
                     ))}
                 </div>
+                <p className="img-attribution">
+                <a className="attri-link" href='https://www.freepik.com/vectors/online-work'>Online work vector created by svstudioart - www.freepik.com</a>
+                    <a className="attri-link" href="https://www.freepik.com/vectors/development">Development vector created by storyset - www.freepik.com</a>
+                </p>
             </div>
         </section>
     );

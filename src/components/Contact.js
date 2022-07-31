@@ -34,6 +34,7 @@ export default function Contact() {
                 <div className="map-div">
                     <iframe 
                         width="100%"
+                        
                         height="100%"
                         title="Map"
                         className="map"
@@ -79,6 +80,7 @@ export default function Contact() {
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
                         susciput officia aspernatus veritatis. Asperiores, aliquid?
                     </p>
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="contact-input-container">
                         <label htmlFor="name" className="label-style">
                             Name

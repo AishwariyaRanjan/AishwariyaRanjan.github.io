@@ -1,35 +1,35 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Coming Soon",
+      subtitle: "",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./example1.jpg",
-      link: "https://reactbootcamp.com",
+        "",
+      image: "./code_typing.jpg",
+      link: "",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Coming Soon",
+      subtitle: "" ,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./example2.jpg",
-      link: "https://reedbarger.com",
+        "",
+      image: "./programming.jpg",
+      link: "",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Coming Soon",
+      subtitle: "" ,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./example2.jpg",
-      link: "https://jsbootcamp.com",
+        "",
+      image: "./programming.jpg",
+      link: "",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Coming Soon",
+      subtitle: "",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./example1.jpg",
-      link: "https://pythonbootcamp.com",
+        "",
+      image: "./code_typing.jpg",   
+      link: "",
     },
   ];
 

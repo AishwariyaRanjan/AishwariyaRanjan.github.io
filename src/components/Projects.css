@@ -74,6 +74,19 @@
     font-weight: 500; 
 }
 
+.img-attribution{
+    display: flex;    
+    gap: 5rem;
+    justify-content: center;
+}
+
+.attri-link{
+    color: white;
+    text-decoration: none;
+    font-size: x-small;
+    width: 100%;
+}
+
 @media(min-width: 640px){
     .intro-heading{
         font-size:2.25rem;
