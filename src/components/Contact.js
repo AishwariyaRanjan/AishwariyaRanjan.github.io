@@ -72,6 +72,7 @@ export default function Contact() {
                     netlify
                     name="contact"
                     className="contact-form"
+                    onSubmit = {handleSubmit}
                 >
                     <h2 className="form-heading">
                         Work with Me
