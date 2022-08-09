@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "",
       description:
         "",
-      image: "./code_typing.jpg",
+      image: "./wip.png",
       link: "",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "" ,
       description:
         "",
-      image: "./programming.jpg",
+      image: "./wip.png",
       link: "",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "" ,
       description:
         "",
-      image: "./programming.jpg",
+      image: "./wip.png",
       link: "",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       subtitle: "",
       description:
         "",
-      image: "./code_typing.jpg",   
+      image: "./wip.png",   
       link: "",
     },
   ];

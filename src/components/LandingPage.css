@@ -1,0 +1,56 @@
+#landingpage{
+    background-image: url("https://data.whicdn.com/images/306375344/original.gif" );
+    /* background-color: antiquewhite; */
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
+
+.l-container{
+    
+    display:flex;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.landing-text{
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(192, 146, 91, 0.574); */
+    
+    color:white;
+    
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    
+}
+
+.about-button-div{
+    margin-top: 2rem;
+}
+.about-button{
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0.25rem;    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+}
+.about-button:hover{
+    color:white;
+    background-color:rgba(255, 255, 255, 0.344);
+}
+
