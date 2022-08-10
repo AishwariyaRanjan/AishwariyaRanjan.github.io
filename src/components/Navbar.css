@@ -2,16 +2,21 @@
     /* position: absolute; */
     top:0;
     background-color: rgba(255,255,255,1) !important;
-    width:auto;
+    /* width:auto; */
     z-index: 999999;    
-    overflow: hidden;
+    /* overflow: hidden; */
+    position: sticky;
+    /* display: flex;
+    align-self: flex-start; */
+    
 }
 
 .n-container{
     display: flex;
     flex-wrap: wrap;
     padding: 1.25rem;
-    align-items: baseline;    
+    align-items: baseline;   
+    
 }
 
 .my-name{
@@ -32,6 +37,17 @@
     color: rgb(105, 95, 88);
 }
 
+#link-div{
+    display: inline-flex;        
+    margin-left: auto;   
+        
+}
+
+/* .navList{
+    width: 100%;
+    background-color: pink;
+} */
+
 .section-links{
     display: flex;
     flex-wrap: wrap;
@@ -44,41 +60,45 @@
 .nav-link{
     margin-right: 1.25rem;
     text-decoration: none;
-    color: #8a9b70;
+    color: gray;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
 }
 .nav-link:hover{
-    color: green;
+    color: black;
 }
 
 .contact-link{
     display: inline-flex;
-    padding-top:0.25rem;
-    padding-bottom:0.25rem;
+    /* padding-top:0.25rem; */
+    /* padding-bottom:0.25rem;
     padding-left:0.75rem;
     padding-right:0.75rem;
-    margin-top: 1rem;
+    margin-top: 1rem; */
     /* margin-left: auto; */
-    background-color: white;
+    /* background-color: white; */
     font-size: 1rem;
     line-height: 1.5rem;
     align-items: center;
     border-radius: 0.25rem;
     border-width:0;
-    color:green;
+    color:black;
     text-decoration: none;
 }
-
-.contact-link:focus{
+.contact-link:hover{
+    color: gray;
+}
+/* .contact-link:focus{
     outline: 2px solid transparent;
     outline-offset: 2px;
     
-}
+} */
 
 .arrow-right-icon{
     width: 1rem;
     height: 1rem;
     margin-left: 0.25rem;
-    color:green;
+    color:black;
 }
 
 .menu-icon{
@@ -95,6 +115,7 @@
     margin-left: auto;
 }
 
+
 @media (min-width: 768px){
     #navbar{
         position: sticky;
@@ -110,33 +131,92 @@
         padding-bottom: 0.25rem;
         padding-left: 1rem;
         margin-left: 1 rem;
-        border-left-width: 1px;
+        /* border-left-width: 1px; */
+        
 
     }
     .contact-link{
         margin-top:0px;
     }
 }
-
+/* 
 @media screen and (min-width: 901px) {
     .n-container,
     .n-container.responsive {
       display: flex;
       align-items: center;
     }
-  }
+  } */
 
-@media (max-width: 600px){
-    .n-container a:not(:first-child){display:none;}
-    /* .section-links{display: none;} */
+@media screen and (max-width: 768px){
     
+    .icon{
+        display: block;
+        margin-left: 0.25rem;
+        background-color: white;
+    }
+    .menu-icon{
+        color: black;
+        background-color: white;
+    }
+    .navigation-menu{
+        /* display: flex;
+        position: absolute;
+        text-align: right; 
+        width:100%;*/
+        
+        /* flex-direction: column;  */
+        
+        position: absolute;
+        text-align: center;
+        margin-top: 40px;
+        flex-direction: column;
+        width: 100%;
+        height: calc(50vh - 40px);
+        background-color: black;
+        border-top: 1px solid black;
+        display: none;
+
+
+    }
+    .navigation-menu.expanded{
+        display: block;
+        position:absolute;
+        /* text-align: right; */
+        margin-top: 40px;
+        left: 0;
+        /* flex-direction: column; */
+        width:100%;
+        height: calc(50vh - 120px);
+        background-color: white;
+        flex-direction: column;
+        
+       
+    }
+    .section-links{
+        display: flex;
+        flex-direction: column;     
+        /* margin-top: 80px;    */
+    }
+    /* .n-container{
+        display: flex;
+        flex-direction: column;
+    } */
+ 
+
+}
+
+/* @media (max-width: 600px){
+    .n-container a:not(:first-child){display:none;}
+    /* .section-links{display: none;} 
+
     .n-container a.icon{     
         float:right;   
         display: block;       
     }
 
     .n-container.responsive {
-        /* position: relative; */
+        /* position: relative; 
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -147,14 +227,14 @@
         position: absolute;
         right:0;
         top: 0;
-    }*/
-    /* styling menu items when hamburger icon clicked*/
+    }
+    /* styling menu items when hamburger icon clicked
     .n-container.responsive a{
-        /* position: relative; */
+        /* position: relative; 
         
         display: flex;
         flex-direction: column;
         text-align: left;
         float: none;
     }
-}
+} */
