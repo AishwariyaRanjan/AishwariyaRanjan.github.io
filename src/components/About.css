@@ -59,6 +59,9 @@
   .intro-text{
     margin-bottom:2rem;
   }
+  .about-intro-text{
+    text-align: left;
+  }
   
   .checkout{
     display: flex;

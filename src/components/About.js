@@ -10,7 +10,7 @@ export default function About() {
                         Hi, I'm Aishwariya!
                         <br/> I aspire to build amazing apps.
                     </h1>
-                    <p className="intro-text">
+                    <p className="about-intro-text">
                         I am an incoming senior @ Arizona State University majoring in Computer Systems Engineering.
                         <br/>
                         <br/>I aim to design creative solutions and build user-friendly web and mobile applications to solve real-world problems by combining my love for technology and art.
