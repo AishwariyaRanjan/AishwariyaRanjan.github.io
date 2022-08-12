@@ -11,9 +11,9 @@ export default function About() {
                         <br/> I aspire to build amazing apps.
                     </h1>
                     <p className="intro-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        I am an incoming senior @ Arizona State University majoring in Computer Systems Engineering.
+                        <br/>
+                        <br/>I aim to design creative solutions and build user-friendly web and mobile applications to solve real-world problems by combining my love for technology and art.
                     </p>
                     <div className="checkout">
                         <a href="#contact" className="contactButton">Work With Me</a>

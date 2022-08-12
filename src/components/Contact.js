@@ -78,8 +78,7 @@ export default function Contact() {
                         Work with Me
                     </h2>
                     <p className="form-p">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                        susciput officia aspernatus veritatis. Asperiores, aliquid?
+                        I look forward to opportunities where I get to learn, grow and make a difference. Please don't hesitate to reach out!
                     </p>
                     <input type="hidden" name="form-name" value="contact" />
 

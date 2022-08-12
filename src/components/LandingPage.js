@@ -9,9 +9,9 @@ export default function LandingPage(){
             <div className="l-container">
                 <div className="landing-text">
                     <h1>Hi, I'm Aishwariya!
-                    <br/> I aspire to build amazing apps.</h1>
+                    <br/> Welcome to my portfolio.</h1>
                     <div className="about-button-div">
-                        <a href="#about" className="about-button">About Me</a>                    
+                        <a href="#about" className="about-button">Click Me!</a>                    
                     </div>
                 </div>
             </div>

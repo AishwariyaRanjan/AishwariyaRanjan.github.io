@@ -15,11 +15,11 @@ export default function Skills() {
                     <h1 className="intro-heading">
                         Skills &amp; Technologies
                     </h1>
-                    <p className="intro-text">
+                    {/* <p className="intro-text">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
                         ipsa delectus eum quo voluptas aspernatur accusantium distinctio
                         possimus est.
-                    </p>
+                    </p> */}
                 </div>
                 <div className="skill-container">
                     {skills.map((skill) => (

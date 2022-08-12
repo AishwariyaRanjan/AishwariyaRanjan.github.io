@@ -15,9 +15,7 @@ export default function Projects() {
                         Projects I've Worked On
                     </h1>
                     <p className="intro-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-                        facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-                        fuga dolore.
+                        I am constantly trying to develop my skills and gain experience using technologies by building projects outside my coursework.
                     </p>
                 </div>
                 <div className="content-container">
