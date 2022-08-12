@@ -14,7 +14,32 @@
     margin-bottom: 4rem;
     flex-direction: column;
     align-items: center;
+  }
+
+  .about-intro-text{
+    text-align: justify;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  @media (max-width: 768px){
+    .about-intro-text{
+      margin-left: 0;
+      margin-right: 0;
+      padding-bottom: 2rem;
     }
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .contactButton{
+        font-size: x-small;
+    }
+
+    .projectsButton{
+      font-size: x-small;
+    }
+  }
   
   @media (min-width: 768px){
     .container{
@@ -30,6 +55,7 @@
     .intro-pic{
       width: 50%;
     }
+    
   }
   
   @media (min-width: 1024px){
@@ -59,11 +85,7 @@
   .intro-text{
     margin-bottom:2rem;
   }
-  .about-intro-text{
-    text-align: justify;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
-  }
+  
   
   .checkout{
     display: flex;
