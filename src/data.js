@@ -34,6 +34,6 @@ export const projects = [
   ];
 
   export const skills =[
-   "Python", "Java", "C/C++", "HTML5", "CSS3","JavaScript", "React"  
+   "Python", "Java", "C/C++", "HTML5", "CSS3","JavaScript", "React" , "GitHub", "Kotlin", "Android Studios", "Figma", "Axure" 
 
   ];
